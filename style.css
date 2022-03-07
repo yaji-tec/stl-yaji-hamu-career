@@ -1,0 +1,43 @@
+.header__logo {
+    margin-top: 6px;
+    text-align: center;
+  }
+  
+  .header__title {
+    display: none;
+  }
+  
+  .header__logo-image {
+    width: 122px;
+    height: 46px;
+  }
+  .header {
+    background-color: #ffffff;
+    box-shadow: 6px 6px 8px rgba(98, 96, 99, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    padding-bottom: 10px;
+  } 
+  .header__list {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+  
+  .header__item {
+    display: inline-block;
+    padding: 0 16px;
+  }
+  .header__link {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #626063;
+    white-space: nowrap;
+  }
+  
+  .header__item:hover .header__link {
+    color: #fd7893;
+  } 
