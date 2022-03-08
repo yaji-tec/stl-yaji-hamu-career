@@ -41,3 +41,6 @@
   .header__item:hover .header__link {
     color: #fd7893;
   } 
+  .feature {
+    background-color: #f4f2ef;
+  }
