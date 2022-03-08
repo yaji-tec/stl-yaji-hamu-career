@@ -1,46 +1,45 @@
-.header__logo {
-    margin-top: 6px;
-    text-align: center;
-  }
-  
-  .header__title {
-    display: none;
-  }
-  
-  .header__logo-image {
-    width: 100px;
-    height: 100px;
-  }
-  .header {
-    background-color: #ffffff;
-    box-shadow: 6px 6px 8px rgba(98, 96, 99, 0.1);
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 10;
-    padding-bottom: 10px;
-  } 
-  .header__list {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    padding-left: 0;
-  }
-  
-  .header__item {
-    display: inline-block;
-    padding: 0 16px;
-  }
-  .header__link {
-    font-weight: bold;
-    font-size: 0.9rem;
-    color: #626063;
-    white-space: nowrap;
-  }
-  
-  .header__item:hover .header__link {
-    color: #fd7893;
-  } 
-  .feature {
-    background-color: #f4f2ef;
-  }
+.hero {
+  background-image: url(img/career.jpg);
+  background-size: cover;
+  height: 1000vh;
+  max-height:1000px;
+}
+.hero__title {
+  color: #ffffff;
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.hero__title__accent {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.hero__subtitle {
+  white-space: pre-line;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.hero {
+  /* 以下の1行を追加 */
+  position: relative;
+  background-image: url(img/career.jpg);
+  background-size: cover;
+  height: 1000vh;
+  max-height: 1000px;
+}
+
+.hero__circle {
+  position: absolute;
+  top: 18%;
+  left: 7%;
+  width: 450px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
